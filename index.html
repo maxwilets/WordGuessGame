@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>90s Hangman</title>
     <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
     <link rel= "stylesheet" type= "text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </head>
 <body>
     <!---choos font
@@ -19,12 +24,39 @@
         **give it some flair
         save everything as object objetify
         -->
-   <div class="Top"> <h2> Fraiser  Hangman for Teenz</h2>
+ <div class="Top"> <h2> 90s Sitcom  Hangman for Teenz</h2>
     <h3> Just Like the 90s</h3>
     <h4> I don't know what to do with this tossed salad and missing words</h4></div>
+    <div class= "container">
+            <div class= "row">
+    
+        <div class= "col-lg-1">
+          <p> </p>
+        </div>
+        <div style= "padding-left: 3px" class = "col-lg-5">
+          <div class = "border-style">  
+                <p> Welcome why dont you try your hand at my riddle? Guess a letter, go ahead, whats the worst that could go wrong?</p> 
+                <p><img src= "assets\images\sitcom1.jpg"></p>
+                <p><img src= "assets\images\sitcom2.jpg"></p>     
+        </div>
+        </div>
+        <div class= "col-lg-5" style="padding-right: 15px"><div class="border-style">
+            <br>
+            <h3 style="color:yellow"> Press Any Letter to Get Started</h3>
+            <br>
+            <div class="currentWord"><h4 style="color:yellow">Current Word</h4>
+            <p id="theWord" style="color:yellow"> </p>
 
-    <div class="main"><div class="border-style">
-       <p> Welcome why dont you try your hand at my riddle? Guess a letter, go ahead, whats the worst that could go wrong?</p>
+            <br><br>
+            <div> Guesses Left: <div id="guesses"></div> </div>
+            </div>
+            <br><br>
+            <div> Letters Guessed: </div>
+            <div id="lettersGuessed"></div>
+            <div id="lettersGuessed2"></div>
     </div></div>
+</div>
+
+</div>
 </body>
 </html>

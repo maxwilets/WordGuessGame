@@ -9,18 +9,22 @@ h3{
     font-family: "Bevan", cursive;
     color: hotpink;
 }
-.main{
-    width: 400px;
-    height: 700px;
+.col-lg-5{
+    
     background-color: hotpink;
     align-self: auto;
     color: yellow;
-    margin-left: 550px;
+    text-align: center;
+    font-family: "Bevan", cursive;
+    font-size: 22px;
+    
     padding: 10px;
+    
 }
 h4{
     font-family: "Bevan", cursive;
-    color: hotpink
+    color: hotpink;
+    text-align: center;
 }
 .Top{
     text-align: center;
@@ -33,9 +37,14 @@ p{
 }
 .border-style{
     border-left: dashed 2px white;
-    width: 390px;
-    height: 690px;
+
     border-top: dotted 2px white;
     border-bottom: dotted 2px white;
     border-right: dashed 2px white;
+    padding: 10px
+}
+
+img{
+    height: 250px;
+    width: 400px;
 }
