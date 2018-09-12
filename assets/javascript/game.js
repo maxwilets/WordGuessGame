@@ -135,7 +135,7 @@ function game() {
             document.querySelector("#guesses").innerHTML = guessesLeft;
             document.querySelector("#lettersGuessed").innerHTML = lettersGuessed;
             document.querySelector("#lettersGuessed2").innerHTML = lettersGuessed2;
-            document.querySelector("#theWord").innerHTML = answerArray.join(",");
+            document.querySelector("#theWord").innerHTML = answerArray.join("");
             document.querySelector("#wins").innerHTML = wins;
 
         }
